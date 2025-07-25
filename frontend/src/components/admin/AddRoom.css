@@ -1,0 +1,112 @@
+.edit-room-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 32px;
+  color: #4a3aff;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.message {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.error-message {
+  color: #a94442;
+  background-color: #f2dede;
+  border: 1px solid #ebccd1;
+}
+
+.success-message {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+}
+
+.edit-room-form , form-group {
+  margin-bottom: 20px;
+}
+
+.edit-room-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-input,
+.form-select,
+.file-input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+.form-input:focus,
+.form-select:focus,
+.file-input:focus {
+  border-color: #4a3aff;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(74, 58, 255, 0.1);
+}
+
+.room-photo-preview {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.add-button,
+.cancel-button{
+  flex: 1;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: 600;
+}
+
+.add-button {
+  background-color: #4a3aff;
+  color: white;
+}
+
+.add-button:hover {
+  background-color: #372bdc;
+}
+.cancel-button {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.cancel-button:hover {
+  background-color: #e0e0e0;
+}

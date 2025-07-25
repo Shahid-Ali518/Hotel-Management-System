@@ -1,0 +1,88 @@
+.bookings-container {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background-color: #333; */
+  
+}
+
+.bookings-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #45a049;
+  font-size: 2.2rem;
+}
+
+.search-div {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.search-div label{
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.search-div input {
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.search-div input:focus{
+  border: #4CAF50;
+}
+
+.all-bookings{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  
+}
+.booking-results {
+  /* background-color: #4CAF50; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  gap: 30px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  border-radius: 10px;
+
+}
+
+.booking-result-item {
+  background-color: #f7f7f7;
+  padding: 20px;
+  width: 40%;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.booking-result-item:hover {
+  transform: translateY(-4px);
+}
+
+.booking-result-item p {
+  margin: 10px 0;
+  font-size: 15px;
+  color: #333;
+}
+
+.manage-booking-button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.manage-booking-button:hover {
+  background-color: #45a049;
+}

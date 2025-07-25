@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.find-booking-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.booing-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 70%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.booing-info img{
+    width: 100%;
+    height: 300px;
+}
+
+.booing-info h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:10px ;
+    color: rgb(55, 167, 111);
+}
+.booing-info h4{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:10px ;
+    color: rgb(13, 14, 14);
+}
+
+.booing-info p{
+    padding-left: -10px ;
+    text-align: center;
+}

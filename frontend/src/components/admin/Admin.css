@@ -1,0 +1,53 @@
+.admin-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  padding: 40px;
+}
+
+.admin-card {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 480px;
+}
+
+.admin-title {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.admin-subtitle {
+  font-size: 16px;
+  color: #7f8c8d;
+  margin-bottom: 30px;
+}
+
+.admin-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.manage-button {
+  padding: 14px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #45a049, #45a049);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.manage-button:hover {
+  background: linear-gradient(135deg, #4c9950, #56c95c);
+  transform: translateY(-2px);
+}
